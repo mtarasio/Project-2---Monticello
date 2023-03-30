@@ -563,22 +563,34 @@ li:hover::before {
 }
 
 .pic1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-area: pic1;
 }
 
 .pic2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
   grid-area: pic2;
 }
 
 .pic3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
   grid-area: pic3;
 }
 
 .pic4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
   grid-area: pic4;
 }
 
 .pic5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
   grid-area: pic5;
 }
 
